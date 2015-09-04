@@ -16,35 +16,3 @@ app.controller('MainController', ['$scope', function($scope){
  $scope.title = headers[show];
 
 }]);
-
-
-/*  $scope.plusOne = function(index){
- $scope.products[index].likes += 1; 
-  };
-
-
-app.controller('MainController', ['$scope', function($scope){
-  var headers = ['My Life as a koditontyötönmamu', 'Ex roadie', 'Web Developer', 'Funny as hell', 'Organizer of SWS'];
-  $scope.title = headers[0];
-  $scope.ChangeTitle = function(){
-    $scope.title=headers[+1];
-    //console.log(this);
-    //$scope.qualifications = false;
-
-    $scope.ChangeTitleMinus=function(){
-    console.log('t');
-    $scope.title=headers[-1];    
-  };
-  };
-}]);
-
-
-  var headers = [
-    {text:'My Life as a koditontyötönmamu', show: true},
-    {text:'Ex roadie', show: false},
-    {text:'Web Developer', show: false},
-    {text:'Funny as hell',show: false},
-    {text:'Organizer of SWS',show: false}
-    ];
-
-  */
